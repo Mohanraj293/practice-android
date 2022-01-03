@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:label="Hilt"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapp.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/mvvm"
+        android:name="com.example.myapp.mvvm.MvvmFragment"
+        android:label="Simple MVVM"
+        tools:layout="@layout/fragment_mvvm" />
+    <fragment
+        android:id="@+id/hilt"
+        android:name="com.example.myapp.hilt.ui.HiltMainActivity"
+        android:label="Hilt MVVM"
+        tools:layout="@layout/hilt_main"/>
+</navigation>
