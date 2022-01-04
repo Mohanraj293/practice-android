@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
             setOf(
                 R.id.homeFragment,
                 R.id.mvvm,
-                R.id.hilt),
+                R.id.hilt,
+                R.id.s_hilt),
             drawer_layout
         )
 

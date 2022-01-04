@@ -21,4 +21,9 @@
         android:name="com.example.myapp.hilt.ui.HiltMainActivity"
         android:label="Hilt MVVM"
         tools:layout="@layout/hilt_main"/>
+    <fragment
+        android:id="@+id/s_hilt"
+        android:name="com.example.myapp.hilt.SampleActivity"
+        android:label="Hilt"
+        tools:layout="@layout/sample_activity"/>
 </navigation>

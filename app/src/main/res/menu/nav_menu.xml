@@ -11,4 +11,7 @@
     <item
         android:id="@+id/hilt"
         android:title="Hilt" />
+    <item
+        android:id="@+id/s_hilt"
+        android:title="Sample Hilt" />
 </menu>
